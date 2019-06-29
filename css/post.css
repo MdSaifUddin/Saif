@@ -234,3 +234,22 @@
     margin-top:20px;
     padding:8px 25px;
 }
+#comment_input{
+    margin-top:20px;
+    width:50%;
+    height:100px;
+}
+#comment_box{
+    background-color:#ccccb3;
+    width:52%;
+    padding:20px;
+    display:none;
+    box-sizing:border-box;
+}
+#comment_para{
+    width:100%;
+    background-color:white;
+    color:black;
+    padding:10px;
+    box-sizing:border-box;
+}

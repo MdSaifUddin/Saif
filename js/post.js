@@ -24,3 +24,14 @@ like.onclick=function(){
         person_count.innerHTML=(n+1)+" person likes this!";
     }
 }
+//comment
+var comment_btn=document.getElementById("comment_button");
+var comment_inp=document.getElementById("comment_input");
+var comment_box=document.getElementById("comment_box");
+comment_btn.onclick=function(){
+    var val=comment_inp.value;
+    if(val!=""){
+        comment_box.style.display="block";
+        comment_box.innerHTML+="<p id='comment_para'>"+val+"</p>";
+}
+}
