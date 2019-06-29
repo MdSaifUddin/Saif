@@ -1,3 +1,4 @@
+//opeing sign in and sign up modal
 var modal1 = document.getElementById("sign_up_modal");
 var modal2 = document.getElementById("sign_in_modal");
 var NAM = document.getElementById("nam");//Not a member
@@ -26,7 +27,5 @@ span2.onclick = function() {
     modal2.style.display = "none";
 }
 NAM.onclick = function() {
-    modal2.style.display = "none";
     modal1.style.display = "block";
-
   }

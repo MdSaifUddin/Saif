@@ -1,9 +1,4 @@
-// var modal = document.getElementById("trash_modal");
-// // Get the button that opens the modal
-// var trash1 = document.getElementById("trash_1");
-// trash1.onclick = function() {
-//     modal.style.display = "block";
-//   }
+//deletion of post
 function delete_post(obj){
     var modal = document.getElementById("trash_modal");
     modal.style.display="block";
@@ -17,4 +12,10 @@ function delete_post(obj){
     no.onclick=function(){
         modal.style.display = "none";
     }
+}
+
+//on clicking the logo it leads to homepage
+var home=document.getElementById("logo");
+home.onclick=function(){
+    window.location.href="../index.html";
 }
